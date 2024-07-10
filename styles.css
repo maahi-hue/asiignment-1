@@ -1,3 +1,4 @@
+/* ----------------section 1-------------------- */
 .banner {
   background-image: url("assets/Hero-bg.png");
   background-size: cover;
@@ -11,7 +12,6 @@
   bottom: 4462px;
 }
 .banner-content {
-  /* Frame 4 */
   position: absolute;
   width: 998px;
   height: 582px;
@@ -19,32 +19,25 @@
   right: 221px;
   top: 157px;
   bottom: 4506px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   padding: 0px;
 }
-
 .text-1 {
-  /* "In the near future, I hope to become a Developer." */
   position: static;
   width: 998px;
   height: 136px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   padding: 0px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 24px 0px;
-
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 48px;
@@ -53,58 +46,45 @@
   letter-spacing: 0%;
   text-align: center;
 }
-
 .text-2 {
-  /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. */
   position: static;
   width: 852px;
   height: 52px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   padding: 0px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 1;
   flex-grow: 0;
   margin: 24px 0px;
-
   opacity: 0.7;
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0%;
   text-align: center;
 }
-
 .content__btn {
-  /* Frame 2 */
   position: static;
   width: 208px;
   height: 66px;
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 21px 24px 21px 24px;
   margin-bottom: 15px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 1;
   flex-grow: 0;
   margin: 32px 0px;
-
   border-radius: 8px;
   color: rgb(13, 19, 33);
 }
-
 .btn {
   display: inline-block;
   background-color: black;
@@ -114,13 +94,11 @@
   font-size: bold;
   border-radius: 0.5rem;
   transition: all 0.5s ease;
-
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 21px 24px 21px 24px;
-
   font-family: Azeret Mono;
   font-size: 20px;
   font-weight: 600;
@@ -129,14 +107,11 @@
   text-align: center;
   text-decoration: none;
 }
-
 .btn:hover {
   background-color: gray;
 }
-
-/* content-2 */
+/* ------------------section 2 "why wev dev."--------------------- */
 .content-2 {
-  /* Frame 13 */
   position: absolute;
   width: 1140px;
   height: 1395px;
@@ -144,7 +119,6 @@
   right: 152px;
   top: 857px;
   bottom: 2993px;
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -152,18 +126,14 @@
   padding: 80px 97px 80px 97px;
 }
 .frame-12 {
-  /* Why Web Development?? */
   position: static;
   width: 852px;
   height: 39px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   padding: 0px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   align-self: stretch;
@@ -180,18 +150,14 @@
   text-align: center;
 }
 .text-4 {
-  /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. */
   position: static;
   width: 852px;
   height: 52px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   padding: 0px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 1;
   align-self: stretch;
@@ -207,7 +173,6 @@
   text-align: center;
 }
 .content-2 {
-  /* Frame 13 */
   margin-top: 20px;
   position: absolute;
   width: 950px;
@@ -216,36 +181,26 @@
   right: 155px;
   top: 857px;
   bottom: 2993px;
-  /* Auto layout */
   display: block;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   padding: 80px 97px 80px 97px;
-
   border-radius: 16px;
-
   background: rgba(13, 19, 33, 0.02);
 }
 .frame-8 {
-  /* Frame 8 */
   display: flex;
   justify-content: space-evenly;
   width: 946px;
   height: 200px;
-  /* Auto layout */
-
   padding: 48px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
   margin: 32px 0px;
-
   border-radius: 16px;
-
   background: linear-gradient(
     90deg,
     rgb(255, 255, 255),
@@ -254,18 +209,14 @@
 }
 
 .text-5 {
-  /* Frame 9 */
   position: static;
   width: 477px;
   height: 220px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 0px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -280,6 +231,7 @@
   line-height: 36px;
   letter-spacing: 0%;
   text-align: left;
+  margin: 16px 0;
 }
 
 .content-2-p1 {
@@ -294,18 +246,14 @@
 }
 
 .learn__btn {
-  /* Frame 7 */
   position: static;
   width: 150px;
   height: 48px;
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 12px 20px 12px 20px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -327,23 +275,17 @@
 }
 .image-2 {
   background-image: url("assets/Layer_1.png");
-  /* Layer_1 */
   position: relative;
   width: 274.17px;
   height: 240px;
 }
 
 .frame-9 {
-  /* Frame 9 */
   display: flex;
   justify-content: space-evenly;
   width: 946px;
   height: 200px;
-  /* Auto layout */
-
   padding: 48px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 1;
   align-self: stretch;
@@ -360,24 +302,19 @@
 
 .image-3 {
   background-image: url("assets/Group-3.png");
-  /* 26979373_website_163 1 */
   position: relative;
   width: 240px;
   height: 240px;
 }
 .text-6 {
-  /* Frame 9 */
   position: static;
   width: 477px;
   height: 220px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 0px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -391,6 +328,7 @@
   line-height: 36px;
   letter-spacing: 0%;
   text-align: left;
+  margin: 16px 0;
 }
 .content-2-p2 {
   color: rgb(13, 19, 33);
@@ -403,15 +341,10 @@
   opacity: 0.7;
 }
 .frame-10 {
-  /* Frame 10 */
   display: flex;
   width: 946px;
   height: 200px;
-  /* Auto layout */
-
   padding: 48px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 2;
   align-self: stretch;
@@ -426,18 +359,14 @@
   );
 }
 .text-7 {
-  /* Frame 9 */
   position: static;
   width: 477px;
   height: 220px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 0px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -451,6 +380,7 @@
   line-height: 36px;
   letter-spacing: 0%;
   text-align: left;
+  margin: 16px 0;
 }
 .content-2-p3 {
   color: rgb(13, 19, 33);
@@ -464,14 +394,12 @@
 }
 .image-4 {
   background-image: url("assets/Group-4.png");
-  /* 26979517_website_249 1 */
   position: relative;
   width: 240px;
   height: 240px;
 }
-
+/* ----------------------vedio section 3----------------------------- */
 .content-3 {
-  /* Frame 15 */
   position: absolute;
   width: 1140px;
   height: 750px;
@@ -479,7 +407,6 @@
   right: 152px;
   top: 2340px;
   bottom: 2128px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -488,18 +415,14 @@
 }
 
 .text-8 {
-  /* Frame 5 */
   position: static;
   width: 852px;
   height: 115px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   padding: 0px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -527,18 +450,14 @@
   margin: 24px 0px;
 }
 .vedio {
-  /* Frame 14 */
   position: static;
   width: 1140px;
   height: 614px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 32px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 1;
   align-self: stretch;
@@ -549,11 +468,9 @@
   border-radius: 16px;
 }
 .rectangle {
-  /* Rectangle 1 */
   position: static;
   width: 1076px;
   height: 550px;
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   align-self: stretch;
@@ -561,14 +478,12 @@
   margin: 10px 0px;
 }
 .content-4 {
-  /* Frame 19 */
   position: absolute;
   width: 1100px;
   height: 460px;
   right: 152px;
   top: 3340px;
   bottom: 2128px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -576,18 +491,14 @@
   padding: 0px;
 }
 .text-9 {
-  /* Frame 5 */
   position: static;
   width: 852px;
   height: 113px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   padding: 0px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -601,6 +512,7 @@
   line-height: 37px;
   letter-spacing: 0%;
   text-align: center;
+  margin: 0 10px;
 }
 .content-4-p1 {
   color: rgb(13, 19, 33);
@@ -611,61 +523,50 @@
   letter-spacing: 0%;
   text-align: center;
   opacity: 0.7;
-  margin: 24px 0px;
+  margin: 10px 0px;
 }
+
+/* -----------------------------cards section 4------------------ */
 .cards {
-  /* Frame 18 */
   position: static;
   width: 1140px;
   height: 299px;
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   padding: 0px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 1;
   align-self: stretch;
   flex-grow: 0;
-  margin: 48px 0px;
+  margin: 26px 0px;
 }
 .card-1 {
-  /* Frame 10 */
   position: static;
   width: 250px;
-  height: 180px;
-  /* Auto layout */
+  height: 380px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 40px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 0px 24px;
   border-radius: 16px;
-
   background: rgba(255, 76, 30, 0.05);
 }
 .card-2 {
-  /* Frame 16 */
   position: static;
   width: 250px;
-  height: 180px;
-  /* Auto layout */
+  height: 380px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 40px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -675,33 +576,26 @@
   background: rgba(0, 76, 232, 0.05);
 }
 .card-3 {
-  /* Frame 17 */
   position: static;
   width: 250px;
-  height: 180px;
-  /* Auto layout */
+  height: 380px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 40px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 2;
   flex-grow: 0;
   margin: 0px 24px;
   border-radius: 16px;
-
   background: rgba(255, 223, 0, 0.05);
 }
 .img-1 {
   background-image: url("assets/html.png");
-  /* Group 5 */
   position: static;
   width: 56px;
   height: 56px;
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -709,11 +603,9 @@
 }
 .img-2 {
   background-image: url("assets/css.png");
-  /* Group 6 */
   position: static;
   width: 56px;
   height: 56px;
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -721,7 +613,6 @@
 }
 .img-3 {
   background-image: url("assets/js.png");
-  /* Group 7 */
   position: static;
   width: 56px;
   height: 56px;
@@ -731,18 +622,14 @@
   margin: 24px 0px;
 }
 .txt {
-  /* Frame 17 */
   position: static;
   width: 284px;
   height: 139px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 0px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   align-self: stretch;
@@ -769,18 +656,14 @@
   opacity: 0.7;
 }
 .card__btn {
-  /* Learn More */
   position: static;
   width: 284px;
   height: 19px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 0px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 1;
   align-self: stretch;
@@ -797,8 +680,8 @@
   text-align: left;
   text-decoration-line: underline;
 }
+/* -----------------support section 5------------------------- */
 .support {
-  /* Frame 8 */
   position: absolute;
   width: 940px;
   height: 254px;
@@ -807,7 +690,6 @@
   top: 4152px;
   bottom: 179px;
   object-fit: cover;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -818,18 +700,13 @@
     url("assets/handshake2.png");
 }
 .inputs {
-  /* Frame 9 */
   position: static;
   width: 900px;
   height: 156px;
-  /* Auto layout */
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 0px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   align-self: stretch;
@@ -837,18 +714,14 @@
   margin: 32px 0px;
 }
 .txt-support {
-  /* Frame 6 */
   position: static;
   width: 730px;
   height: 104px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 0px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -880,18 +753,14 @@
   margin: 0px 6px;
 }
 .form__input {
-  /* Frame 7 */
   position: static;
   width: 548px;
   height: 57px;
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   padding: 19px 20px 19px 20px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -912,45 +781,37 @@
   text-align: center;
   border: none;
   opacity: 0.7;
-  /* Suggest me any feedback for me */
   position: static;
   width: 313px;
   height: 19px;
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   padding: 19px 20px 19px 20px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 0px 10px;
 }
 .submit__btn {
-  /* Frame 8 */
   position: static;
   width: 120px;
   height: 58px;
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 17px 20px 17px 20px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 1;
   flex-grow: 0;
   margin: 0px 16px;
   border-radius: 8px;
-
   background: rgb(255, 255, 255);
   border: none;
 }
+/* support submit button */
 .btn-4 {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
@@ -959,9 +820,10 @@
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
+  text-decoration: none;
 }
+/* ----------------------footer section 6 ----------------------- */
 .footer {
-  /* Frame 21 */
   position: absolute;
   display: flex;
   justify-content: space-between;
@@ -970,26 +832,20 @@
   height: 100px;
   left: 0;
   top: 4645px;
-  /* Auto layout */
-
   padding: 32px 150px 32px 150px;
   border-radius: 16px;
-
   background: rgba(13, 19, 33, 0.03);
 }
+/* footer text */
 .text-11 {
-  /* An Open Commitment by Awlad Hossain */
   position: static;
   width: 390px;
   height: 24px;
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   padding: 0px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -1002,6 +858,7 @@
   letter-spacing: 0%;
   text-align: center;
 }
+/* footer icon */
 .icon-1 {
   background-image: url("assets/facebook.png");
 }
