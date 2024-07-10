@@ -1,0 +1,207 @@
+.banner {
+  background-image: url("assets/Hero-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 1440px;
+  height: 652px;
+  left: 0;
+  right: 0;
+  top: 131px;
+  bottom: 4462px;
+}
+.banner-content {
+  /* Frame 4 */
+  position: absolute;
+  width: 998px;
+  height: 582px;
+  left: 221px;
+  right: 221px;
+  top: 157px;
+  bottom: 4506px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+}
+
+.text-1 {
+  /* "In the near future, I hope to become a Developer." */
+  position: static;
+  width: 998px;
+  height: 136px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.text-2 {
+  /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. */
+  position: static;
+  width: 852px;
+  height: 52px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px 0px;
+
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.content__btn {
+  /* Frame 2 */
+  position: static;
+  width: 208px;
+  height: 66px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 21px 24px 21px 24px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 32px 0px;
+
+  border-radius: 8px;
+  color: rgb(13, 19, 33);
+}
+
+.btn {
+  display: inline-block;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  padding: 0.9rem 2.5rem;
+  font-size: bold;
+  border-radius: 0.5rem;
+  transition: all 0.5s ease;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 21px 24px 21px 24px;
+
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: gray;
+}
+
+/* content-2 */
+.content-2 {
+  /* Frame 13 */
+  position: absolute;
+  width: 1140px;
+  height: 1395px;
+  left: 148px;
+  right: 152px;
+  top: 857px;
+  bottom: 2993px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 80px 97px 80px 97px;
+}
+.frame-12 {
+  /* Why Web Development?? */
+  position: static;
+  width: 852px;
+  height: 39px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+.text-3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.text-4 {
+  /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. */
+  position: static;
+  width: 852px;
+  height: 52px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 24px 0px;
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
